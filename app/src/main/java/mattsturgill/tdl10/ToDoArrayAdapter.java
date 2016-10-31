@@ -28,8 +28,8 @@ public class ToDoArrayAdapter extends ArrayAdapter<ToDoItem>{
 
         inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         formatter = new SimpleDateFormat("MM/dd/yyyy");
-
     }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View ItemRow = inflater.inflate(resource, parent, false);
@@ -46,6 +46,7 @@ public class ToDoArrayAdapter extends ArrayAdapter<ToDoItem>{
 
         return ItemRow;
     }
+
     public void updateAdapter(ArrayList<ToDoItem> toDoItems){
         this.items = toDoItems;
         super.notifyDataSetChanged();

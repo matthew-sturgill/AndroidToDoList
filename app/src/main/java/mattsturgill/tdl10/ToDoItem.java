@@ -42,7 +42,6 @@ public class ToDoItem implements Comparable<ToDoItem>{
 
     @Override
     public int compareTo(ToDoItem another) {
-        //return another.getDate().compareTo(getDate());
         return getDate().compareTo(another.getDate());
     }
 }

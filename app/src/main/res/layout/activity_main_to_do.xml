@@ -10,29 +10,33 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="mattsturgill.tdl10.ToDoItem">
+
     <Button
         android:id="@+id/addToDoButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add To Do Item"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/workList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Work"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/personalList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Personal"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
+
     <Button
         android:id="@+id/groceryList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Grocery"
-        android:textSize="30sp"/>
+        android:textSize="30sp" />
 
 </LinearLayout>

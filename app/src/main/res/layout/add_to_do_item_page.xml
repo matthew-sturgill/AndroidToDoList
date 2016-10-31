@@ -6,6 +6,7 @@
               android:background="#cccccc"
               android:layout_height="match_parent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     android:weightSum="1">
+
     <TextView
             android:id="@+id/td_title_explain"
             android:layout_width="match_parent"
@@ -14,8 +15,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
-            android:textSize="20sp"
-    />
+            android:textSize="20sp" />
+
     <EditText
             android:id="@+id/td_title"
             android:layout_width="match_parent"
@@ -26,8 +27,8 @@
             android:textSize="20sp"
             android:background="#fff"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-    />
+            android:layout_marginRight="10dp" />
+
     <TextView
             android:layout_width="match_parent"
             android:layout_height="25dp"
@@ -37,7 +38,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
     <EditText
             android:id="@+id/td_text"
@@ -49,32 +50,22 @@
             android:background="#ffffff"
             android:gravity="top"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-    />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Choose category"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/spinner"
-      />/  android:entries="@array/spinnerChoices"
-       />
+            android:layout_marginRight="10dp" />
 
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose category"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
 
     <Button
             android:text="SAVE"
-        android:paddingTop="10dp"
+            android:paddingTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/save_button"
             android:layout_alignParentBottom="true"
             android:layout_alignEnd="@+id/td_text"/>
-
-
-
 
 </LinearLayout>
