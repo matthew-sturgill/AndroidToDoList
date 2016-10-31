@@ -58,6 +58,7 @@ public class ToDoActivity extends AppCompatActivity {
                 Intent intent = new Intent(ToDoActivity.this, ToDoDetailActivity.class);
                 intent.putExtra("Title", item.getTitle());
                 intent.putExtra("Text", item.getText());
+           //     intent.putExtra("Category", item.getCategory());
                 intent.putExtra("Index", position);
 
                 startActivityForResult(intent, 1);

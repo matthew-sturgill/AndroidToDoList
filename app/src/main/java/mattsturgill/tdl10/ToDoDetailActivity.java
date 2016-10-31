@@ -14,6 +14,7 @@ import android.widget.EditText;
 
 public class ToDoDetailActivity extends AppCompatActivity {
     private EditText Title;
+  //  private EditCategory Category;
     private EditText Text;
     private Button saveButton;
     private int index;
@@ -25,6 +26,7 @@ public class ToDoDetailActivity extends AppCompatActivity {
 
         Title = (EditText) findViewById(R.id.td_title);
         Text = (EditText) findViewById(R.id.td_text);
+
 
         Intent intent = getIntent();
 

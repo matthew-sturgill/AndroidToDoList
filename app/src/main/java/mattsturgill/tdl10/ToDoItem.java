@@ -8,6 +8,7 @@ import java.util.Date;
 public class ToDoItem implements Comparable<ToDoItem>{
     private String title;
     private String text;
+    private String category;
     private Date date;
 
     public ToDoItem(String title, String text, Date date) {
@@ -15,6 +16,14 @@ public class ToDoItem implements Comparable<ToDoItem>{
         this.text = text;
         this.date = date;
     }
+
+   // public String getCategory() {
+   //     return category;
+   // }
+
+    //public void setCategory(String category) {
+     //   this.category = category;
+    //}
 
     public String getTitle() {
         return title;
